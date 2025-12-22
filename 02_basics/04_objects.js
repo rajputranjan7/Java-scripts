@@ -66,3 +66,16 @@ const {courseInstructor : Instructor} = course //destructure object
 
 // console.log(courseInstructor);
 console.log(Instructor);
+
+//JSON
+
+// {
+//     "name" : "Ranjan",
+//     "coursename" : "js in hindi"
+//     "price" : "free"
+// }
+[
+    {},
+    {},
+    {}
+]
