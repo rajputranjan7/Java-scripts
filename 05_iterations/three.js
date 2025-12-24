@@ -1,7 +1,7 @@
 // for of
 
 // ["", "", ""]
-// [{}, {}, {}]
+// [{}, {}, {}] -> for each most useful
 
 // const arr = [1,2,3,4,5]
 
