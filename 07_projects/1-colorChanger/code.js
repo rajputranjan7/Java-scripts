@@ -4,7 +4,7 @@ const body = document.querySelector('body');
 
 buttons.forEach(function (button){
     // console.log(button);
-    button.addEventListener('click',function(e){
+    button.addEventListener('mouseover',function(e){
         console.log(e);
         console.log(e.target);
         if(e.target.id === 'grey'){
@@ -20,6 +20,9 @@ buttons.forEach(function (button){
             body.style.backgroundColor = e.target.id;
         }
         if(e.target.id === 'purple'){
+            body.style.backgroundColor = e.target.id;
+        }
+        if(e.target.id === 'red'){
             body.style.backgroundColor = e.target.id;
         }
     });
